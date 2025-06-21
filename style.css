@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+body{
+
+    .mitr-light {
+        font-family: "Mitr", serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+  
+}

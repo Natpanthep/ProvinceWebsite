@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สถานที่ท่องเที่ยว</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.css"></script>
+
+    <style>
+        h3{
+            font-family: "Prompt", serif;
+            font-weight: 700;
+            font-style: normal;
+
+        }
+        h1{
+            font-family: "Prompt", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        p{
+            font-family: "Prompt", serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+        
+        .rounded-box {
+            
+            width: 1200px;
+            /*height: 600px;*/
+            min-height: 400px; 
+            background-color: #E2DBD0;
+            /*border-radius: 20px;  ทำให้ขอบมน */
+            border: 3px solid #ccd5ae; /* สีขอบ */
+            transform: translate(0%, 0%);
+            font-size: 80px;
+            color: #000;
+            text-align: center;   
+            line-height: 1.5;
+            box-shadow: 5px 5px 15px #0000; /* เงา */
+            margin-top: 50px;
+            font-weight: bold; 
+            margin: auto;
+            
+        }
+
+        </style>
+
+</head>
+<body style="background-image: url('img/Space.jpg');">
+    <!--Header-->
+    <header >
+        <nav class="navbar navbar-expand-lg " style="background-color: #a4aeff;">
+            <div class="container-fluid " style="align-items: center;">
+                <a class="navbar-brand text-white d-flex align-items-center" href="Index.html">
+                    <h1 class="ms-3" style="font-weight: bolder; font-size: 300%;">จังหวัดกรุงเทพมหานคร</h1>
+                </a>     
+                
+                <div class="d-flex gap-0"> <!-- Flex container for buttons -->
+                    <a class="nav-link text-white text-decoration-none " href="Index.html" 
+                       style="font-size: 140%; font-weight: bolder;">หน้าแรก</a>
+                    <a class="nav-link text-white text-decoration-none" href="one.html" 
+                       style="font-size: 140%; font-weight: bolder;">สถานที่ท่องเที่ยว</a>
+                    <a class="nav-link text-white text-decoration-none" href="two.html" 
+                       style="font-size: 140%; font-weight: bolder;">ของดีประจำจังหวัด</a>
+                </div>
+            </div>  
+        </nav>
+    </header>
+
+    <hr>
+
+    <div class="rounded-box" > 
+        <h3 style="margin-top: 130px;"><u>สถานที่ท่องเที่ยว</u></h3>
+    </div>
+
+    <br>
+
+    <!--<div  style="background-color: #fefae0">
+        <br><br><br>
+
+        <img src="img/ล่องเรือดินเนอร์แม่น้ำเจ้าพระยา.jpg" style="width: 30%; height: auto; transform: translate(15%, 0%); margin: auto;"  />
+        <img src="img/มหานครสกายวอล์ค.jpg" style="width: 25%; height: auto; transform: translate(35%, 0%); margin: auto;"  />
+        <img src="img/ดรีมเวิลด์.jpg" style="width: 25%; height: auto; transform: translate(60%, 0%); margin: auto;"  />
+        <p style="  transform: translate(13%, 0%); margin: auto; margin-top: 5px; font-weight: bold">ล่องเรือดินเนอร์แม่น้ำเจ้าพระยา</p>
+        <p style="  transform: translate(45%, 0%); margin: auto; margin-top: -25px; font-weight: bold">มหานครสกายวอล์ค</p>
+        <p style="  transform: translate(81%, 0%); margin: auto; margin-top: -25px; font-weight: bold">ดรีมเวิลด์</p>
+        <a href="index.html"><p style="  text-decoration: underline; transform: translate(4%, 0%); margin: auto; margin-top: 20px; ">ย้อนกลับ</p></a>
+        <a href="two.html"><p style="  margin-top: -100px;  text-decoration: underline; transform: translate(4%, 0%); margin: auto; margin-top: 20px; ">ของดีประจำจังหวัด</p></a>
+
+        <br>
+    </div> -->
+
+    <!-- ล่องเรือดินเนอร์ -->
+<div class="tour-section" style="background-color: #fefae0;">
+    <div class="tour-image" style="flex: 1; display: flex; justify-content: center;">
+      <img src="img/ล่องเรือดินเนอร์แม่น้ำเจ้าพระยา.jpg" alt="ล่องเรือดินเนอร์แม่น้ำเจ้าพระยา">
+    </div>
+    <div class="tour-text" style="flex: 1;">
+      <h3 style="color: #ff5fca;">ล่องเรือดินเนอร์แม่น้ำเจ้าพระยา</h3>
+      <p>ดื่มด่ำกับบรรยากาศยามค่ำคืนของกรุงเทพฯ พร้อมรับประทานอาหารบนเรือหรูที่ล่องไปตามแม่น้ำเจ้าพระยา ชมแสงไฟจากวัดอรุณ พระบรมมหาราชวัง และสะพานพระราม 8</p>
+    </div>
+  </div>
+  
+  <hr style="padding: 5px; background-color: white; border: none;">
+  
+  <!-- มหานครสกายวอล์ค -->
+  <div class="tour-section" style="background-color: #fdeedc;">
+    <div class="tour-text" style="flex: 1;">
+      <h3 style="color: #6b28d6;">มหานครสกายวอล์ค</h3>
+        <p>เป็นหนึ่งในจุดชมวิวที่สูงที่สุดในประเทศไทยและเป็นหนึ่งในสถานที่ท่องเที่ยวที่โดดเด่นที่สุดของประเทศไทย ด้วยความสูง 314 เมตร ให้ทัศนียภาพอันงดงามของเมืองแบบ 360 องศา เป็นสถานที่ที่ต้องไปเยือนของกรุงเทพฯ</p>
+        <br>
+        <p>ที่มหานคร สกายวอล์ค คุณจะได้สัมผัสความตื่นเต้นในการชมเมืองจากมุมมองใหม่ๆ และเพลิดเพลินไปกับทัศนียภาพอันงดงามจากจุดชมวิวบนชั้น 74 และดาดฟ้าชมวิวกลางแจ้งบนชั้น 78  มหานครสกายวอล์ก มอบประสบการณ์ที่ยอดเยี่ยมแก่ผู้เข้าชมด้วยทิวทัศน์ของตึกระฟ้าสูงตระหง่านในย่านสาทรและบางรัก โดยจะเห็นวิวแม่น้ำเจ้าพระยา พร้อมวิวพระอาทิตย์ตกดินที่น่าประทับใจ รับรองว่าจะทำให้คุณประทับใจไม่รู้ลืม</p>
+    </div>
+    <div class="tour-image" style="flex: 1; display: flex; justify-content: center;">
+      <img src="img/มหานครสกายวอล์ค.jpg" alt="มหานครสกายวอล์ค">
+    </div>
+  </div>
+  
+  <hr style="padding: 5px; background-color: white; border: none;">
+  
+  <!-- ดรีมเวิลด์ -->
+  <div class="tour-section" style="background-color: #ffe1e1;">
+    <div class="tour-image" style="flex: 1; display: flex; justify-content: center;">
+      <img src="img/ดรีมเวิลด์.jpg" alt="ดรีมเวิลด์">
+    </div>
+    <div class="tour-text" style="flex: 1;">
+      <h3 style="color: #1511ff;">ดรีมเวิลด์</h3>
+      <p>เป็นสวนสนุกกลางแจ้งขนาดใหญ่ในประเทศไทย ตั้งอยู่กิโลเมตรที่ 7 ของทางหลวงแผ่นดินหมายเลข 305 (รังสิต-นครนายก) ในตำบลบึงยี่โถ อำเภอธัญบุรี จังหวัดปทุมธานี และสวนสนุกแห่งนี้มีเนื้อที่กว่า 160 ไร่</p>
+      <br>
+      <p>สวนสนุกดรีมเวิลด์มีจุดเริ่มต้นจากการที่ตระกูลกิติพราภรณ์เห็นว่าสวนสนุกแดนเนรมิตของตนกำลังจะหมดสัญญาเช่าที่ดิน จึงได้ซื้อที่ดินขนาดใหญ่แถบชานเมืองเพื่อสร้างสวนสนุกแห่งที่ 2 ด้วยงบลงทุนกว่า 1,000 ล้านบาท สวนสนุกดรีมเวิลด์เปิดให้บริการครั้งแรกในวันที่ 12 พฤศจิกายน พ.ศ. 2536 </p>
+    </div>
+  </div>
+
+    <br>
+
+    <footer style="background-color: rgba(0, 0, 0, 0.7); padding: 20px; text-align: center;">
+        <h2 style="color: white; margin: 0;">Recreate by Natpanthep</h2>
+    </footer>
+
+    <br>
+        
+</body>
+</html>

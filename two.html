@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ของดีประจำจังหวัด</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.css"></script>
+
+    <style>
+        h3{
+            font-family: "Prompt", serif;
+            font-weight: 700;
+            font-style: normal;
+
+        }
+        h1{
+            font-family: "Prompt", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        p{
+            font-family: "Prompt", serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+        
+        .rounded-box {
+            
+            width: 1200px;
+            /*height: 600px;*/
+            min-height: 400px; 
+            background-color: #E2DBD0;
+            /*border-radius: 20px;  ทำให้ขอบมน */
+            border: 3px solid #ccd5ae; /* สีขอบ */
+            transform: translate(0%, 0%);
+            font-size: 80px;
+            color: #000;
+            text-align: center;   
+            line-height: 1.5;
+            box-shadow: 5px 5px 15px #0000; /* เงา */
+            margin-top: 50px;
+            font-weight: bold; 
+            margin: auto;
+            
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.95); /* สีพื้นของการ์ด */
+            border: 2px solid #ffffff; /* กรอบสีขาว */
+            border-radius: 15px; /* มุมโค้ง */
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* เงา */
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.03); /* ขยายเล็กน้อยเมื่อชี้เมาส์ */
+        }
+
+        .card-group {
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card-title {
+            color: #333;
+        }
+
+        .btn-primary {
+            background-color: #158eff;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #67fff2;
+        }
+
+        .card-img-top {
+            height: 220px;
+            width: 100%;
+            object-fit: cover;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+    </style>
+
+</head>
+<body style="background-image: url('img/Space.jpg'); ">
+
+    <!--Header-->
+    <header >
+        <nav class="navbar navbar-expand-lg " style="background-color: #a4aeff;">
+            <div class="container-fluid " style="align-items: center;">
+                <a class="navbar-brand text-white d-flex align-items-center" href="Index.html">
+                    <h1 class="ms-3" style="font-weight: bolder; font-size: 300%;">จังหวัดกรุงเทพมหานคร</h1>
+                </a>     
+                
+                <div class="d-flex gap-0"> <!-- Flex container for buttons -->
+                    <a class="nav-link text-white text-decoration-none " href="Index.html" 
+                       style="font-size: 140%; font-weight: bolder;">หน้าแรก</a>
+                    <a class="nav-link text-white text-decoration-none" href="one.html" 
+                       style="font-size: 140%; font-weight: bolder;">สถานที่ท่องเที่ยว</a>
+                    <a class="nav-link text-white text-decoration-none" href="two.html" 
+                       style="font-size: 140%; font-weight: bolder;">ของดีประจำจังหวัด</a>
+                </div>
+            </div>  
+        </nav>
+    </header>
+    
+    <hr>
+
+    <div class="rounded-box" > 
+        <h3 style="margin-top: 130px;"><u>ของดีประจำจังหวัด</u></h3>
+    </div>
+
+    <br>
+
+    <div  style="background-color: #fefae0">
+        <br><br><br>
+
+        <div class="card-group" style="margin: 0;">
+            <!-- ผัดไทย -->
+            <div class="card" style="width: 18rem; margin: 10px;">
+              <img class="card-img-top" src="img/ผัดไทย.webp" style="height: 220px; object-fit: cover;">
+              <div class="card-body">
+                <h5 class="card-title">ผัดไทย</h5>
+                <p class="card-text">อาหารจานเดียวชื่อดังของไทย เส้นจันท์เหนียวนุ่มผัดกับซอสกลมกล่อม โรยด้วยถั่วลิสง มะนาว และพริกป่น รสชาติลงตัว</p>
+                <a href="ผัดไทย.html" class="btn btn-primary btn-sm">เพิ่มเติม</a>
+              </div>
+            </div>
+          
+            <!-- ต้มยำกุ้ง -->
+            <div class="card" style="width: 18rem; margin: 10px;">
+              <img class="card-img-top" src="img/ต้มยำกุ้ง.webp" style="height: 220px; object-fit: cover;">
+              <div class="card-body">
+                <h5 class="card-title">ต้มยำกุ้ง</h5>
+                <p class="card-text">ซุปยอดนิยมของไทย รสเผ็ดเปรี้ยวจัดจ้าน หอมสมุนไพร เสริมด้วยมันกุ้งและพริกเผา กุ้งสดเนื้อแน่น</p>
+                <a href="ต้มยำกุ้ง.html" class="btn btn-primary btn-sm">เพิ่มเติม</a>
+              </div>
+            </div>
+          
+            <!-- ขนมข้าวเกรียบปากหม้อ -->
+            <div class="card" style="width: 18rem; margin: 10px;">
+              <img class="card-img-top" src="img/ขนมข้าวเกรียบปากหม้อ.jpg" style="height: 220px; object-fit: cover;">
+              <div class="card-body">
+                <h5 class="card-title">ขนมข้าวเกรียบปากหม้อ</h5>
+                <p class="card-text">ขนมไทยโบราณ แป้งบางนุ่มห่อไส้ปรุงรสอย่างประณีต เสิร์ฟพร้อมผักสดและกระเทียมเจียว</p>
+                <a href="ข้าวเกรียบปากหม้อ.html" class="btn btn-primary btn-sm">เพิ่มเติม</a>
+              </div>
+            </div>
+          </div>               
+
+        <br>
+    </div>
+
+    <br>
+
+    <footer style="background-color: rgba(0, 0, 0, 0.7); padding: 20px; text-align: center;">
+        <h2 style="color: white; margin: 0;">Recreate by Natpanthep</h2>
+    </footer>
+
+    <br>
+    
+</body>
+</html>
