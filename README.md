@@ -14,3 +14,5 @@ This is a simple educational website built using HTML, CSS, and Bootstrap 5.1.0.
 
 ## 📁 Project Structure
 
+### Homepage
+![Homepage](img/ex.PNG)
